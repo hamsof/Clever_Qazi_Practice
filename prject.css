@@ -1,0 +1,175 @@
+
+.ham{
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: cursive;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+body{
+    background-color:rgb(238, 174, 13);
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 4px orangered;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container-5{
+    height: 890px;
+}
+.container-1 h1,
+.container-2 h1,
+.container-3 h1,
+.container-4 h1,
+.container-5{
+    color: coral;
+}
+.container-1 h3{
+    color:gray;
+}
+/***buttons***/
+
+.container-2 button,
+.container-3 button,
+.container-1 button,
+.hafiz button,
+.social button,
+.container-5 button{
+    width: 80px;
+    height: 28px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    margin: 10px 10px 30px 10px;
+    background-image: repeating-linear-gradient(red , orange ); 
+}
+.container-1 button:hover,
+.container-3 button:hover,
+.container-2 button:hover,
+.hafiz button:hover,
+.container-5 button:hover
+{
+    background-image: repeating-linear-gradient(orange,red );
+    border: none;
+    transform: scaleX(1.05);
+}
+.container-1 button:active,.container-1 button:focus,
+.container-3 button:active,.container-3 button:focus,
+.container-2 button:active,.container-2 button:focus,
+.hafiz button:active,.hafiz button:focus,
+.container-5 button:active,.container-5 button:focus
+{
+    outline: none;
+    border:solid 2px palegreen;
+}
+.flex-box-2{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-2 img{
+    border: solid 2px green;
+    margin: 10px;
+    box-shadow: 10px 10px 8px #888888;
+}
+.flex-box-3 img:hover{
+    box-shadow: 3px 10px 76px 10px rgb(42, 212, 127);
+    cursor: pointer;
+}
+.flex-box-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-box-4{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-box-4 button{
+    margin-bottom: 10px;
+    font-family :cursive;
+    outline: none;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+/* flex-box-4 buttons ke color */
+
+#red{
+    background-color: red;
+    color: white;
+}
+#cyan{
+    background-color: cyan;
+    color: blue;
+}
+#palegreen{
+    background-color:palegreen;
+}
+#yellow{
+    background-color: yellow;
+    color: orangered;
+}
+
+
+.flex-box-5 img{
+    widows: 19%;
+    height:27%;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.flex-box-5{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    height: 400px; 
+    background-color: palegreen;
+    border-top: solid 3px green;
+    border-bottom: solid 3px green;
+    margin-bottom: 22px;
+}
+#yourN,#bootN{
+height: 400px;
+width: 100%;
+}
+#yourN{
+    border-right:3px solid green;
+}
+table{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+text-align: center;
+}
+table, th, td{
+    border: green solid 2px;
+}
+th,td {
+width: 70px;
+}
+/* #win{
+    padding: 10px;
+    border: 2px solid green;
+} */
+
+#guide{
+    font-family: cursive;
+    text-align: left;
+}
+ 
+/* list - style type ko none ker diya hai ta qe pehley he style na ban jaey  */
+ul li{
+    list-style-type: none;
+}

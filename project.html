@@ -1,0 +1,134 @@
+
+<!--we should have proper marjins -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./prject.css">
+    <title>project</title>
+</head>
+<body>
+
+
+
+    <!--first project-->
+
+    <h1 class="ham"> <a title="hamsof is technical name of hafiz abdulmanan">Its aLl AboUT HamSoF</a></h1>
+<h1 class="ham">HaFiz AbDulManAn</h1>
+
+        <div class="container-1">
+                    <h1> Your age in days</h1>
+                        <button class="click" onclick="ageInDays()">Click Me</button>
+                        <button class="click" onclick="reset()">Reset</button>
+                    <h3 id="p2">your result will display here </h3>
+        </div>
+<!--second project is laying nechey -->
+
+<div class="container-2">
+     <h1> Cat Generator</h1>
+     <button id="generate-button" onclick="generate()">Generate</button>
+     <button onclick="location.reload()">Rsest</button>
+     <div class="flex-box-2" id="flex-pic"></div>
+
+</div>
+<!--third project starts here -->
+
+<div class="container-3">
+    <h1> Paper Rock Scissors</h1>
+    <div class="flex-box-3" id="flex-pic-3">
+         <img src="./paper.png" height="200px" width="200px" id="paper" onclick="gam3(this)">
+         <img src="./rock.png" height="200px" width="200px" id="rock" onclick="gam3(this)">
+         <img src="./scissor.png" height="200px" width="200px" id="scissor" onclick="gam3(this)">
+    </div>
+    <button onclick="location.reload();">Reset</button>
+</div>
+
+<!-- fourth start here -->
+
+<div class="container-4">
+   <h1> Chainging Colors </h1> 
+   <div class="flex-box-4">
+     <form action="" class="form">
+         <select name="backdrop" id="background" onchange="changeColor(this)">
+            <option>select --</option>
+            <option value="red">red</option>
+            <option value="cyan">cyan</option>
+            <option value="yellow">yellow</option>
+            <option value="palegreen">palegreen</option>
+            <option value="Reseet">Reset</option>
+        </select>
+     </form>
+     <button onclick="changeColor(this)" id="red">red</button>
+     <button onclick="changeColor(this)" id="cyan">cyan</button>
+     <button onclick="changeColor(this)" id="palegreen">palegreen</button>
+     <button onclick="changeColor(this)" id="yellow">yellow</button>
+   </div>
+</div>
+</div>
+
+
+
+<!-- fifth project starts here -->
+
+<div class="container-5">
+
+    <h1>BlackJack Project</h1>
+    <h2><span id="Win">Lets Play</span></h2>
+
+   <div class="flex-box-5">
+       <div id="yourN"><h1>You : <span id="blackjackResult">0</span></h1></div>
+       <div id="bootN"><h1>Dealer : <span id="bootResult">0</span> </h1></div>
+    </div>
+
+    <div class="butt" id="both-dives">
+         <button onclick="hit()" id="hitB">Hit</button>
+         <button id="standB" onclick="stand()">Stand</button>
+         <button id="dealB" >Deal</button>
+    </div>
+
+    <hr style="color: green;height: 2px;background-color: green;margin-bottom: 27px;">
+
+    <button onclick="player1()">1 : Player</button>
+    <button onclick="player2()" id="player2">2 : Player</button>
+    <button onclick="deal()">Deal</button>
+
+    <div class="for-table">       
+        <hr style="color: green;height: 2px;background-color: green;margin-bottom: 27px;">
+        <table>
+            <tr>
+                <th>WoN</th>
+                <th>LoSS</th>
+                <th>DraW</th>
+            </tr>
+            <tr>
+                <td><span id="winB">0</span></td>
+                <td><span id="lossB">0</span></td>
+                <td><span id="drawB">0</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <button onclick="guide()">Guides</button>
+        <div id="guide"> 
+            <ul id="ulg">
+                <li id="li1"></li>
+                <li id="li2"></li>
+                <li id="li3"></li>
+                <li id="li4"></li>
+                <li id="li5"></li>
+                <li id="li6"></li>
+                <li id="li7"></li>
+                <li id="li8"></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<h1 class="ham">Thank you for being here</h1>
+
+    <script src="./project.js">
+    </script>
+</body>
+</html>
