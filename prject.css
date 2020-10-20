@@ -176,13 +176,14 @@ ul li{
 @media only screen and (max-width: 1000px){
     body {
       background-color: lightblue;
+
     }
     .container-1,
     .container-2,
     .container-3,
     .container-4,
     .container-5{
-    width: 90%;
+    width: 96%;
     }
     h1,h3{
         font-size: 15px;
@@ -220,5 +221,7 @@ ul li{
   #guide{
       font-size: 9px;
   }
-  
+  .ham{
+      font-weight: 15px;
+  }
 }
