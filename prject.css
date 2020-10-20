@@ -173,3 +173,44 @@ width: 70px;
 ul li{
     list-style-type: none;
 }
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+    h1{
+        font-size: 15px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    .flex-box-5 img{
+        height: 60px;
+        width: 40px;
+    }
+    .container-2 button,
+    .container-3 button,
+    .container-1 button,
+    .hafiz button,
+    .social button,
+    .container-5 button{
+    width: 70px;
+    height: 20px;
+    font-size: 9px;
+    font-weight: 2px;
+  }
+  .flex-box-4 button{
+      height: 20px;
+      font-size: 9px;
+  }
+  .flex-box-5{
+      height: 300px;
+  }
+  #yourN,#bootN{
+    height: 300px;
+  }
+  #guide{
+      font-size: 9px;
+  }
+  
+}
